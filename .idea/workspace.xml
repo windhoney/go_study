@@ -38,7 +38,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build branch.go">
+  <component name="RunManager" selected="Go 构建.go build func.go">
     <configuration name="go build basic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gowww" />
       <working_directory value="$PROJECT_DIR$" />
@@ -55,6 +55,22 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build func.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gowww" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/func.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gowww" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/loop.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -66,6 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build func.go" />
+        <item itemvalue="Go 构建.go build loop.go" />
         <item itemvalue="Go 构建.go build branch.go" />
         <item itemvalue="Go 构建.go build basic.go" />
       </list>
@@ -96,38 +114,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="291" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596117378489" />
-    <state width="879" height="279" key="GridCell.Tab.0.bottom" timestamp="1596265564726">
+    <state width="891" height="322" key="GridCell.Tab.0.bottom" timestamp="1596271655511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596265564726" />
-    <state width="879" height="279" key="GridCell.Tab.0.center" timestamp="1596265564726">
+    <state width="891" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596271655511" />
+    <state width="891" height="322" key="GridCell.Tab.0.center" timestamp="1596271655511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596265564726" />
-    <state width="879" height="279" key="GridCell.Tab.0.left" timestamp="1596265564726">
+    <state width="891" height="322" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596271655511" />
+    <state width="891" height="322" key="GridCell.Tab.0.left" timestamp="1596271655511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596265564726" />
-    <state width="879" height="279" key="GridCell.Tab.0.right" timestamp="1596265564726">
+    <state width="891" height="322" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596271655511" />
+    <state width="891" height="322" key="GridCell.Tab.0.right" timestamp="1596271655511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596265564726" />
-    <state width="1021" height="345" key="GridCell.Tab.1.bottom" timestamp="1596117688724">
+    <state width="891" height="322" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596271655511" />
+    <state width="891" height="345" key="GridCell.Tab.1.bottom" timestamp="1596271391573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1021" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596117688724" />
-    <state width="1021" height="345" key="GridCell.Tab.1.center" timestamp="1596117688722">
+    <state width="891" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596271391573" />
+    <state width="891" height="345" key="GridCell.Tab.1.center" timestamp="1596271391573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1021" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596117688722" />
-    <state width="1021" height="345" key="GridCell.Tab.1.left" timestamp="1596117688720">
+    <state width="891" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596271391573" />
+    <state width="891" height="345" key="GridCell.Tab.1.left" timestamp="1596271391573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1021" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596117688720" />
-    <state width="1021" height="345" key="GridCell.Tab.1.right" timestamp="1596117688723">
+    <state width="891" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596271391573" />
+    <state width="891" height="345" key="GridCell.Tab.1.right" timestamp="1596271391573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1021" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596117688723" />
+    <state width="891" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596271391573" />
     <state x="117" y="156" key="SettingsEditor" timestamp="1596257883719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
