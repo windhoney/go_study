@@ -1535,7 +1535,7 @@ func dumptabs() {
 	for _, i := range itabs {
 		// dump empty itab symbol into i.sym
 		// type itab struct {
-		//   inter  *interfacetype
+		//   retriever  *interfacetype
 		//   _type  *_type
 		//   hash   uint32
 		//   _      [4]byte

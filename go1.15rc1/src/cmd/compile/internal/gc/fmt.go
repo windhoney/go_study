@@ -1384,7 +1384,7 @@ func (n *Node) exprfmt(s fmt.State, prec int, mode fmtMode) {
 		fmt.Fprint(s, "<struct>")
 
 	case OTINTER:
-		fmt.Fprint(s, "<inter>")
+		fmt.Fprint(s, "<retriever>")
 
 	case OTFUNC:
 		fmt.Fprint(s, "<func>")

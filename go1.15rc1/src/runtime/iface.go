@@ -185,7 +185,7 @@ func (t *itabTableType) add(m *itab) {
 }
 
 // init fills in the m.fun array with all the code pointers for
-// the m.inter/m._type pair. If the type does not implement the interface,
+// the m.retriever/m._type pair. If the type does not implement the interface,
 // it sets m.fun[0] to 0 and returns the name of an interface function that is missing.
 // It is ok to call this multiple times on the same m, even concurrently.
 func (m *itab) init() string {
@@ -193,7 +193,7 @@ func (m *itab) init() string {
 	typ := m._type
 	x := typ.uncommon()
 
-	// both inter and typ have method sorted by name,
+	// both retriever and typ have method sorted by name,
 	// and interface names are unique,
 	// so can iterate over both in lock step;
 	// the loop is O(ni+nt) not O(ni*nt).

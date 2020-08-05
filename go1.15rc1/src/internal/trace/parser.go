@@ -556,7 +556,7 @@ func removeFutile(events []*Event) []*Event {
 // time stamps that do not respect actual event ordering.
 var ErrTimeOrder = fmt.Errorf("time stamps out of order")
 
-// postProcessTrace does inter-event verification and information restoration.
+// postProcessTrace does retriever-event verification and information restoration.
 // The resulting trace is guaranteed to be consistent
 // (for example, a P does not run two Gs at the same time, or a G is indeed
 // blocked before an unblock event).

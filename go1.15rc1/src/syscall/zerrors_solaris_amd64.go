@@ -1405,7 +1405,7 @@ var signals = [...]string{
 	30: "cpu Limit Exceeded",
 	31: "file Size Limit Exceeded",
 	32: "no runnable lwp",
-	33: "inter-lwp signal",
+	33: "retriever-lwp signal",
 	34: "checkpoint Freeze",
 	35: "checkpoint Thaw",
 	36: "thread Cancellation",

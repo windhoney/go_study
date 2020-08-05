@@ -1500,7 +1500,7 @@ func (ctxt *Link) hostlink() {
 		// (see https://golang.org/issue/20183 for details).
 		p := writeGDBLinkerScript()
 		argv = append(argv, "-Wl,-T,"+p)
-		// libmingw32 and libmingwex have some inter-dependencies,
+		// libmingw32 and libmingwex have some retriever-dependencies,
 		// so must use linker groups.
 		argv = append(argv, "-Wl,--start-group", "-lmingwex", "-lmingw32", "-Wl,--end-group")
 		argv = append(argv, peimporteddlls()...)
