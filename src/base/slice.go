@@ -6,6 +6,8 @@ import "fmt"
 //半开半闭区间 [2:6] 2345(0123456)
 //Slice本身没有数据,是对底层array的一个view
 
+//[]没写长度就是切片 写长度就是数组
+
 //修改 会改变数值本身
 func updateSlice(s []int) {
 	s[0] = 100
@@ -50,5 +52,14 @@ func main() {
 	//s=append(s,val)
 	fmt.Println(s3, s4, s5)
 	fmt.Println(arr)
+
+	s8 := make([]int,2,10)
+	fmt.Println(s8)
+
+	s10 := []int{1,2,3,4}
+	s11 := s10[3]
+	s10 = append(s10, 5,6,7,8)
+	s10[3] = 100
+	fmt.Println(s10,s11)
 
 }
