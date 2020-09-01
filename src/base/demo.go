@@ -72,6 +72,7 @@ func allStudent(studentList *[]Student) {
 	}
 }
 
+//新增学生
 func addStudent(studentNum, studentName string) {
 	//studentInfo = Student{studentName, studentNum}
 	studentList = append(studentList, Student{studentName, studentNum})
